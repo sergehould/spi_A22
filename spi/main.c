@@ -20,9 +20,9 @@
 
 
 int main(void) {
-    /* The following line MUST always be the first line to run 
-     * when entering the main                                   */
-    oled_init();  // part of the static lib.  Clk frequency at 3.63MHz
+    /* When using the OLED, the following line MUST always be the first line to run 
+     * when entering the main                                                        */
+    //oled_init();  // part of the static lib.  Clk frequency at 3.63MHz
     
     ios_init();
     adc_init();
